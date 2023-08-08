@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.books {
+  display: flex;
+}
+
+.book {
+  width: 33.33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bookImg {
+  width: 80%;
+}
